@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Información</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Formulario de Información</h1>
+  
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br><br>
+    
+    <label for="cedula">Cédula:</label>
+    <input type="text" id="cedula" required><br><br>
+    
+    <label for="carrera">Carrera Universitaria:</label>
+    <input type="text" id="carrera" required><br><br>
+
+    <label for="ciclo">Ciclo al que pertenece</label>
+    <input type="text" id="ciclo" required><br><br>
+    
+    <button type="button" onclick="cargarInformacion()">Cargar información</button>
+  </form>
+  
+  <div id="datosIngresados"></div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
